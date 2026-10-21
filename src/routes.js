@@ -1,5 +1,7 @@
 import HomePage from './pages/HomePage.vue';
+import TasksPage from './pages/TasksPage.vue';
 import AboutPage from './pages/AboutPage.vue';
+import HelpPage from './pages/HelpPage.vue';
 
 const routes = [
   {
@@ -7,8 +9,16 @@ const routes = [
     component: HomePage,
   },
   {
+    path: '/tasks/',
+    component: TasksPage,
+  },
+  {
     path: '/about/',
     component: AboutPage,
+  },
+  {
+    path: '/help/',
+    component: HelpPage,
   },
 ];
 
